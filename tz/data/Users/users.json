@@ -1,0 +1,17 @@
+users([
+  {
+    "id":"1",
+    "name":"Игорь",
+    "email":"igor@mail.ru"
+  },
+  {
+    "id":"2",
+    "name":"Павел",
+    "email":"Pavel@mail.ru"
+  },
+  {
+    "id":"3",
+    "name":"Виктор",
+    "email":"victor@mail.ru"
+  }
+]);
