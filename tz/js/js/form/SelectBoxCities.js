@@ -34,7 +34,7 @@ export default class SelectBoxCities {
     promiseJsonP() {
 
         let promise = new Promise((resolve, reject) => {
-            this.data = new JsonP(`./data/Countries/${this.idCountry}.json`, "./js/jsonP/cities.js", this, 'cities').request();
+            this.data = new JsonP(`http://tikhomirov-sergey.ru/data/Countries/${this.idCountry}.json`, "http://tikhomirov-sergey.ru/js/jsonP/cities.js", this, 'cities').request();
             setTimeout(() => {
                 if (this.data) {
 

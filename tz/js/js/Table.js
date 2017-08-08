@@ -145,7 +145,7 @@ export default class Table {
 
         //Промис ждет подгрузки данных
         let promise = new Promise((resolve, reject) => {
-            this.data = new JsonP("./data/Users/users.json", "./js/jsonP/users.js", this, 'users').request();
+            this.data = new JsonP("http://tikhomirov-sergey.ru/data/Users/users.json", "http://tikhomirov-sergey.ru/js/jsonP/users.js", this, 'users').request();
             setTimeout(() => {
                 if (this.data) {
 
